@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title></title>
+
+		<script type="text/javascript">
+            //Write function using Object Oriented Javascript where rabbit inherits animal class using _proto_.-
+            
+			var person = function(){
+			    this.walks = true;
+			}
+
+			var student = function(){
+				this.studies = "yes";
+			};
+
+			var s = new student();
+			s.__proto__ = new person();
+			alert("inherited property walks : "+  s.walks);
+
+
+		</script>
+
+	</head>
+
+	<body>
+
+		OK! Done.
+
+	</body>
+
+</html>
